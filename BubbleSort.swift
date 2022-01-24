@@ -1,5 +1,5 @@
 struct BubbleSort {
-    func bubbleSort(array: [Int]) -> [Int] {
+    func bubbleSort(_ array: [Int]) -> [Int] {
         var sortedArray = array
         sortedArray.reserveCapacity(array.count)
         let lastCheckIndex = sortedArray.count - 1
